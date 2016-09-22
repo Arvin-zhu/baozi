@@ -11,11 +11,12 @@
 <div id="container"></div>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.preload.min.js"></script>
-<script src="js/resize.js"></script>
+<script src="js/resizeX.js"></script>
 <script src="js/page.js"></script>
 <script>
 $(function(){
-$("#loading").css("line-height",$(window).innerHeight()+"px");$("#loading").css("opacity",0.6);init();preloadImg()});
+$("#loading").css("line-height",$(window).innerHeight()+"px");
+$("#loading").css("opacity",0.6);init();preloadImg()});
 var items=[];
 function init(){
 	items.push({name:"c1",rect:{t:0,l:0,w:0,h:0},img:"c1.jpg"});
