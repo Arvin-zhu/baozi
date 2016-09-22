@@ -1,4 +1,3 @@
-<script>
     var dataForWeixin = {
       appId: "",
       MsgImg: "../images/c14.png",//显示图片
@@ -59,4 +58,3 @@
         document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
       }
     })();
-</script>
